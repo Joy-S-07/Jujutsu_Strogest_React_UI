@@ -1,12 +1,47 @@
-# React + Vite
+# Jujutsu Strongest React UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A stunning, stylized web application UI built with React, Vite, and Tailwind CSS. This project serves as a modern landing page / UI showcase themed around the concepts of "The Strongest" from Jujutsu Kaisen (featuring components like Yuji Itadori).
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19** - For building a fast, interactive component-based UI.
+- **Vite** - Next-generation frontend tooling for rapid development and lightning-fast HMR.
+- **Tailwind CSS v4** - A utility-first CSS framework for rapid UI styling right in the markup.
+- **Remix Icon** - Open-source neutral-style system symbols.
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is a modular React project. The structure mainly focuses on the `src/` directory where all the magic happens:
+- `src/components/Section1/`: Contains the foundational layout elements such as `Navbar`, content blocks (`Page1Content`), and character elements (`Yuji`, `Arrow`).
+- `src/App.jsx`: The global application container setting up the background, theme, and main entry sections.
+
+## ⚙️ Getting Started
+
+To get a local copy up and running, follow these simple steps:
+
+### Prerequisites
+
+Ensure you have Node.js and npm (or yarn/pnpm) installed on your machine.
+
+### Installation
+
+1. Clone the repository and navigate into the project directory.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Development Server
+
+Start the development server with Vite:
+```bash
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser. The page will reload if you make edits.
+
+## 🛠️ Scripts Available
+
+- `npm run dev`: Starts the local development server.
+- `npm run build`: Bundles the app into static files for production.
+- `npm run lint`: Runs ESLint to catch programming errors, bugs, or stylistic issues.
+- `npm run preview`: Boot up a local static web server that serves the files from `dist` to preview your production build locally.
